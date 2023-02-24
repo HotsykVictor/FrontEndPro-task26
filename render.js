@@ -1,9 +1,4 @@
 const renderInput = (func) => {
-  if (localStorage.getItem("Username")) {
-    renderWelcomeMessage(localStorage.getItem("Username"));
-    return;
-  }
-
   const wrapper = document.getElementById("block");
   wrapper.replaceChildren();
 
